@@ -3,14 +3,14 @@ Bu depoda 12 adet bir birinden farklı sıralama algoritmaları bulunmaktadır./
 
 
 # 1-Selection Sort/Seçmeli Sıralama 
-# 2-Bubble Sort
-# 3-Merge Sort
-# 4-Quick Sort
+# 2-Bubble Sort/Kabarcık Sıralama
+# 3-Merge Sort/Birleştirmeli Sıralama
+# 4-Quick Sort/Hızlı Sıralama 
 # 5-Radix Sort
 # 6-Heap Sort
-# 7-Bucket Sort
+# 7-Bucket Sort/Kova Sıralama 
 # 8-Bogo Sort
 # 9-Insertion Sort
-# 10-Counting Sort
+# 10-Counting Sort/
 # 11-Shake Sort
 # 12-Stooge Sort
