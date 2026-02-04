@@ -14,9 +14,3 @@ def selecition_sorted(liste):
 
             
     return liste
-
-liste1=list(map(int, input("Lütfen bir liste giriniz(',')->").split(",")))
-print(liste1)
-sirali_list=selecition_sorted(liste1)
-print(sirali_list)
-

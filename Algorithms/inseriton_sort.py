@@ -11,8 +11,4 @@ def insertion_sort(arr):
     
     return arr
 
-liste = [33, 44, 21, 83, 56, 73, 22]
-print("Sırasız liste:", liste)
-print("Sıralanmış liste:", insertion_sort(liste))
-
 

@@ -28,7 +28,4 @@ def max_heap_sort(arr):
         maxheap(arr,i,0) #***dikkat
 
 
-    print(arr)
-
-arr=[2,15,9,30,18,6,25]
-max_heap_sort(arr)
+    return arr

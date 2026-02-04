@@ -11,7 +11,3 @@ def bubble_sort(liste):
 
     return liste
 
-
-liste=[3,8,5,7,10,9,1,0,-2]
-sirali=bubble_sort(liste)
-print(sirali)

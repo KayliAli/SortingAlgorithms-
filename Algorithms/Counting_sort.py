@@ -34,9 +34,6 @@ def counting_sort(ls):
     return sirali_liste
 
 
-ls=[2,1,1,0,2,5,4,0,2,8,7,7,9,2,0,1,9]
-print(ls)
-print(counting_sort(ls))
 
 
 

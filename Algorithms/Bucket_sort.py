@@ -30,7 +30,4 @@ def Bucket_sort(arr):
 
     return sirali_arr
 
-# Test     
-arr = [30, 17, 97, 42, 4, 65, 37, 48, 92, 40]
-print(Bucket_sort(arr))
 

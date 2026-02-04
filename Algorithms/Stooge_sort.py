@@ -19,11 +19,3 @@ def stooge_sort(arr):
         stooge(arr,i,j-k)
     stooge(arr,0,len(arr)-1)
 
-
-arr=[64, 34, 25, 22, 11, 90]
-
-print("original arry:",arr)
-
-stooge_sort(arr)
-print("sorted arry :",arr)
-

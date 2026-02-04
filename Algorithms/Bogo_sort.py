@@ -14,6 +14,4 @@ def bogo_sort(ls):
             kontrol=True
             print(ls,"try:",sayac)
 
-ls=[1,2,5,0,4,3,9,7,8]
-bogo_sort(ls)
 

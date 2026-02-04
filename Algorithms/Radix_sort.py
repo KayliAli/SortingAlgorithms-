@@ -27,7 +27,4 @@ def radix_sort(liste):
             C[num].append(sayi)
         E=birlestirme(C)
 
-    print(E)
-
-liste=[624,211,125,132,395,458]
-radix_sort(liste)
+    return E

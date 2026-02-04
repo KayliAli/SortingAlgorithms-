@@ -15,15 +15,10 @@ def  shake_sort(liste):
         
 
         for i in range(len(liste)-2,  - 1, -1):
-            if arr[i] > arr[i + 1]:                       # geriye dogru tarama
-                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+            if liste[i] > liste[i + 1]:                       # geriye dogru tarama
+                liste[i], liste[i + 1] = liste[i + 1], liste[i]
                 kontrol = False
         
         return liste
 
-
- 
-
-arr=[6,2,9,15,30,18,0,20,-5]
-print(shake_sort(arr))
 

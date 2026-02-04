@@ -21,8 +21,8 @@ def morgen_sort(liste1):
         # for y in range(orta,len(liste1)):
         #     sag.append(liste1[y])  
 
-    sag=Morgen_sort(sag)
-    sol=Morgen_sort(sol)
+    sag=morgen_sort(sag)
+    sol=morgen_sort(sol)
     sirali_liste=[]
     while sag and sol:
          if sag[0]<sol[0]:
@@ -39,7 +39,3 @@ def morgen_sort(liste1):
         sirali_liste+=sag
 
     return sirali_liste
-
-
-a=[1,3,5,2,7,8,6]
-print(morgen_sort(a))
