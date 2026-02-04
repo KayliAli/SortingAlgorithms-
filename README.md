@@ -44,20 +44,20 @@ and their performance characteristics.
 
 ## Time & Space Complexity
 
-| Algorithm       | Best Case | Average Case | Worst Case | Space Complexity | Stable |
-|-----------------|-----------|--------------|------------|------------------|--------|
-| Selection Sort  | O(n²)     | O(n²)        | O(n²)      | O(1)             | No     |
-| Bubble Sort     | O(n)      | O(n²)        | O(n²)      | O(1)             | Yes    |
-| Merge Sort      | O(n log n)| O(n log n)   | O(n log n) | O(n)             | Yes    |
-| Quick Sort      | O(n log n)| O(n log n)   | O(n²)      | O(log n)         | No     |
-| Radix Sort      | O(nk)     | O(nk)        | O(nk)      | O(n + k)         | Yes    |
-| Heap Sort       | O(n log n)| O(n log n)   | O(n log n) | O(1)             | No     |
-| Bucket Sort     | O(n + k)  | O(n + k)     | O(n²)     | O(n)             | Yes    |
-| Bogo Sort       | O(n)      | O((n+1)!)    | O(∞)       | O(1)             | No     |
-| Insertion Sort  | O(n)      | O(n²)        | O(n²)      | O(1)             | Yes    |
-| Counting Sort   | O(n + k)  | O(n + k)     | O(n + k)  | O(k)             | Yes    |
-| Shake Sort      | O(n)      | O(n²)        | O(n²)     | O(1)             | Yes    |
-| Stooge Sort     | O(n^2.7)  | O(n^2.7)     | O(n^2.7)  | O(n)             | No     |
+| Algorithm       | Best Case | Average Case | Worst Case | Space Complexity |
+|-----------------|-----------|--------------|------------|------------------|
+| Selection Sort  | O(n²)     | O(n²)        | O(n²)      | O(1)             | 
+| Bubble Sort     | O(n)      | O(n²)        | O(n²)      | O(1)             |
+| Merge Sort      | O(n log n)| O(n log n)   | O(n log n) | O(n)             | 
+| Quick Sort      | O(n log n)| O(n log n)   | O(n²)      | O(log n)         | 
+| Radix Sort      | O(nk)     | O(nk)        | O(nk)      | O(n + k)         | 
+| Heap Sort       | O(n log n)| O(n log n)   | O(n log n) | O(1)             | 
+| Bucket Sort     | O(n + k)  | O(n + k)     | O(n²)     | O(n)              | 
+| Bogo Sort       | O(n)      | O((n+1)!)    | O(∞)       | O(1)             | 
+| Insertion Sort  | O(n)      | O(n²)        | O(n²)      | O(1)             | 
+| Counting Sort   | O(n + k)  | O(n + k)     | O(n + k)  | O(k)              | 
+| Shake Sort      | O(n)      | O(n²)        | O(n²)     | O(1)              | 
+| Stooge Sort     | O(n^2.7)  | O(n^2.7)     | O(n^2.7)  | O(n)              | 
 
 > n = number of elements  
 > k = range of input values or number of digits
@@ -67,3 +67,21 @@ and their performance characteristics.
 
 This repository is intended for learning and comparing sorting algorithms,
 focusing on their logic and time complexity rather than production-level performance.
+
+## How to Run
+
+### Requirements
+- Python 3.8 or higher
+
+
+### Run the Application
+All sorting algorithms are executed from a single entry point.
+
+```bash
+python main.py
+```
+### Notes
+- Algorithms are implemented as pure functions.
+- Each algorithm works on a copy of the input array.
+- This project is intended for educational purposes.
+
