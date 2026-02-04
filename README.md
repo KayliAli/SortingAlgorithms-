@@ -68,7 +68,7 @@ and their performance characteristics.
 This repository is intended for learning and comparing sorting algorithms,
 focusing on their logic and time complexity rather than production-level performance.
 
-## How to Run
+## ▶️ How to Run
 
 ### Requirements
 - Python 3.8 or higher
