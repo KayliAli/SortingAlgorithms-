@@ -1,5 +1,4 @@
 # Sorting Algorithms
-
 This repository contains implementations of common sorting algorithms written in **Python**.
 Each algorithm is implemented for educational purposes to demonstrate different sorting techniques
 and their performance characteristics.
@@ -69,10 +68,8 @@ This repository is intended for learning and comparing sorting algorithms,
 focusing on their logic and time complexity rather than production-level performance.
 
 ## ▶️ How to Run
-
 ### Requirements
 - Python 3.8 or higher
-
 
 ### Run the Application
 All sorting algorithms are executed from a single entry point.
